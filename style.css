@@ -1,0 +1,29 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+#audio{
+    margin: 50px auto;
+    display: block;
+}
+
+#canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#fileupload{
+    z-index: 99;
+    position: absolute;
+    color: white;
+}
